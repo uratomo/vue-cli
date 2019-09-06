@@ -11,5 +11,10 @@
 
   <body>
     <%= yield %>
+    <%= javascript_pack_tag "hello_vue" %>
+    <li v-for="artist in artists" v-on:click="setArtistInfo(artist.id)" class= "lime" v-bind:key="artist"> 
+   {{ artist.artist_name }}
+</li> 
+
   </body>
 </html>
