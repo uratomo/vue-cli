@@ -2,6 +2,8 @@
 
 > A Vue.js project
 
+https://www.monster-dive.com/blog/web_creative/20180608_001789.php
+を元に作成
 ## Build Setup
 
 ``` bash
